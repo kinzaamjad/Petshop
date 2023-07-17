@@ -1,0 +1,80 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: rgb(227, 223, 223);
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(31, 31, 31), rgb(31, 31, 31));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgrgb(31, 31, 31), rgb(31, 31, 31))
+    }
+
+
+
+    .section-title h2 {
+        font-weight: 700;
+        /* color: #20247b; */
+        font-size: 45px;
+        margin: 0 0 15px;
+        border-left: 5px solid #fc5356;
+        padding-left: 15px;
+    }
+    .section-title {
+        padding-bottom: 45px;
+    }
+    .contact-form .send {
+        margin-top: 20px;
+    }
+    .px-btn {
+        padding: 0 50px 0 20px;
+        line-height: 60px;
+        position: relative;
+        display: inline-block;
+        color: #20247b;
+        background: none;
+        border: none;
+    }
+    .px-btn:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        border-radius: 30px;
+        background: transparent;
+        border: 1px solid rgba(252, 83, 86, 0.6);
+        border-right: 1px solid transparent;
+        -moz-transition: ease all 0.35s;
+        -o-transition: ease all 0.35s;
+        -webkit-transition: ease all 0.35s;
+        transition: ease all 0.35s;
+        width: 60px;
+        height: 60px;
+    }
+    .px-btn .arrow {
+        width: 13px;
+        height: 2px;
+        background: currentColor;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        right: 25px;
+    }
+    .px-btn .arrow:after {
+        width: 8px;
+        height: 8px;
+        border-right: 2px solid currentColor;
+        border-top: 2px solid currentColor;
+        content: "";
+        position: absolute;
+        top: -3px;
+        right: 0;
+        display: inline-block;
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
